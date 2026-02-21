@@ -1,7 +1,0 @@
-call_llm.py 调用LLM的API生成Greeting；由于没有许多模型的api key 目前并没有实现模型的代码，目前测试完成的只有 Gemini, Qwen, GLM. 可以根据自己需求选择需要的模型添加所需代码。
-
-direct_decrypt.py 根据api_key把加密的.db转化为.sqlite文件
-get_chat_data.py 根据wxid获得单个聊天数据
-get_friend_info.py 根据wxid获得单个用户的基础信息
-search_users.py 返回所有包含关键字段的用户
-get_key.py 获取api_key
