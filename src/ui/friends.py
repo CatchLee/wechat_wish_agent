@@ -287,7 +287,8 @@ class FriendsPage(QWidget):
 		# 读取聊天记录 0.03s
 		# 数据处理 0.00s
 		# 调用接口 53.97s
-		return blessing
+		self._set_blessing_text(blessing)
+		return 
 
 	def _set_selected_item(self, item: Optional[QFrame]) -> None:
 		if self._selected_item is item:

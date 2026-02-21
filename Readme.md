@@ -18,8 +18,5 @@
 	- `decrypt.py`：一键解密页面，触发数据库解密流程。
 	- `setting.py`：设置页，配置路径、密钥、模型名称与 API Key。
 
-# TODO
-目前打包得到的无法正确运行，但是python src/main.py可以执行
-
 # 致谢
 感谢项目https://github.com/hicccc77/WeFlow，https://github.com/ycccccccy/wx_key在关于wechat api key提取上的支持。https://www.tianmiao.fun/archives/WPsezuW6#63-%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95-message 对微信数据库理解提供了帮助

@@ -278,7 +278,7 @@ class KeyCaptureDialog(QDialog):
     @staticmethod
     def _is_process_running(proc_name: str) -> bool:
         try:
-            output = subprocess.check_output(["tasklist"], text=True, errors="ignore")
+            output = subprocess.check_output(["tasklist"], text=True, errors="ignore", creationflags=subprocess.CREATE_NO_WINDOW)
         except Exception:
             return False
         proc_name = proc_name.lower()

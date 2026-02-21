@@ -5,7 +5,7 @@ a = Analysis(
     ['src\\main.py'],
     pathex=[],
     binaries=[],
-    datas=[('config.json', '.')],
+    datas=[('config.json', '.'), ('src/core/assets/dll/wx_key.dll', 'src/core/assets/dll')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
